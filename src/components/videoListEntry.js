@@ -5,7 +5,6 @@ angular.module('video-player')
       select: '<'
     },
     controller: function() {
-      console.log('videolistentry ctrl: ', this);
     },
     templateUrl: 'src/templates/videoListEntry.html'
   });
